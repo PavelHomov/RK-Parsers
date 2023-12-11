@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rk-parsers"
+version = "0.1.0"
+description = ""
+authors = ["Pavel Homov <pawel.khomov@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "rk_parsers"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
